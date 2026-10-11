@@ -12,7 +12,7 @@ _notes/
 # KiCad's own local-history store. THIS IS ITSELF A GIT REPO (it uses git to
 # snapshot your files every few minutes) and it is ~9 MB of duplicates.
 # Never commit it: a nested repo inside your repo breaks the checker and bloats
-# the clone. See docs/REPO-SETUP.md.
+# the clone. See REPO-SETUP.md inside the git-ignored _notes/ folder.
 .history/
 
 # Auto-backups KiCad writes next to the project on every save.
