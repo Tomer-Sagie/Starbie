@@ -1,0 +1,46 @@
+# ---- Personal notes / working docs ---------------------------------------
+# A local folder of guides, drafts and staging that is deliberately NOT part of
+# the submission. Keeps the public repo clean; nothing here is ever uploaded.
+# Instructions for every other folder live in _notes/REPO-SETUP.md.
+_notes/
+
+# ---- KiCad ---------------------------------------------------------------
+# User-specific project state (window layout, last-used paths, per-user prefs).
+# Not part of the design; regenerated automatically.
+*.kicad_prl
+
+# KiCad's own local-history store. THIS IS ITSELF A GIT REPO (it uses git to
+# snapshot your files every few minutes) and it is ~9 MB of duplicates.
+# Never commit it: a nested repo inside your repo breaks the checker and bloats
+# the clone. See docs/REPO-SETUP.md.
+.history/
+
+# Auto-backups KiCad writes next to the project on every save.
+*.bak-*
+*-backups/
+fp-info-cache
+
+# Open-file lock files (these appear as ~Starbiew.kicad_sch.lck).
+~*.lck
+*.lck
+
+# ---- Build output --------------------------------------------------------
+# Regenerate from source; never commit compiled binaries.
+build/
+*.elf
+*.bin
+*.hex
+*.uf2
+*.map
+.pio/
+
+# ---- Gerbers: deliberately NOT ignored -----------------------------------
+# gerbers/*.g* and the drill files ARE committed on purpose - the submission
+# spec lists them as a recommended deliverable. Do not add them here.
+
+# ---- OS / editor --------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
