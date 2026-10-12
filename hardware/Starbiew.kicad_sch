@@ -3815,6 +3815,18 @@
 		(uuid "2f1720c9-f7f3-4069-bf17-88d94dbc4e6d")
 	)
 	(junction
+		(at 170.18 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b11eaa8-a509-474b-8eb0-76ac562693dc")
+	)
+	(junction
+		(at 170.18 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d8050dc-2eda-4ded-9a84-5f50e22636f4")
+	)
+	(junction
 		(at 168.91 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3845,12 +3857,6 @@
 		(uuid "a63f3be7-624a-4499-b022-5a6165da3d5b")
 	)
 	(junction
-		(at 170.18 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc0aeaf0-950a-4b18-9903-d82da7522a11")
-	)
-	(junction
 		(at 179.07 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3861,12 +3867,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e52f0657-b127-4501-8311-d72962ed181b")
-	)
-	(junction
-		(at 170.18 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4ef381d-1ba9-45e0-89ad-b8398308ac4c")
 	)
 	(no_connect
 		(at 187.96 119.38)
@@ -4016,6 +4016,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 69.85) (xy 172.72 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c06d11-6533-40fb-b60b-7d948a86508e")
+	)
+	(wire
+		(pts
 			(xy 147.32 60.96) (xy 147.32 63.5)
 		)
 		(stroke
@@ -4053,16 +4063,6 @@
 			(type default)
 		)
 		(uuid "1dca082e-8873-42f4-8943-8e7667ebfda4")
-	)
-	(wire
-		(pts
-			(xy 156.21 66.04) (xy 170.18 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f4b1c27-845c-4c28-9af2-d5b75920bece")
 	)
 	(wire
 		(pts
@@ -4216,13 +4216,23 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 66.04) (xy 170.18 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5164b567-9dd5-4b19-9ae8-7ff0ae6d41c6")
+	)
+	(wire
+		(pts
 			(xy 170.18 66.04) (xy 170.18 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c0c3ea8-6afb-4d9a-93ad-5cb2c1859d0f")
+		(uuid "5c30e886-af73-432f-a57f-f827b86e16da")
 	)
 	(wire
 		(pts
@@ -4346,16 +4356,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 73.66) (xy 170.18 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c2d7219-cd4c-4af5-981a-6b18f5bdaade")
-	)
-	(wire
-		(pts
 			(xy 161.29 144.78) (xy 161.29 147.32)
 		)
 		(stroke
@@ -4426,6 +4426,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 73.66) (xy 170.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9466e464-e8a1-4a10-a5cd-61d939829ea3")
+	)
+	(wire
+		(pts
 			(xy 158.75 52.07) (xy 154.94 52.07)
 		)
 		(stroke
@@ -4473,6 +4483,16 @@
 			(type default)
 		)
 		(uuid "a07f6a81-20eb-4874-bf02-a4518ea0f0e3")
+	)
+	(wire
+		(pts
+			(xy 170.18 72.39) (xy 190.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b5e324-1640-4060-934f-93e877fb4ce0")
 	)
 	(wire
 		(pts
@@ -4556,7 +4576,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 72.39) (xy 190.5 72.39)
+			(xy 168.91 72.39) (xy 170.18 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4573,16 +4593,6 @@
 			(type default)
 		)
 		(uuid "babcb2ab-3498-4019-bd3d-160f769f986f")
-	)
-	(wire
-		(pts
-			(xy 156.21 73.66) (xy 170.18 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8f49816-fbaa-4083-beed-0ae8b0d093f3")
 	)
 	(wire
 		(pts
@@ -4726,6 +4736,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 73.66) (xy 170.18 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49a28a3-349a-4625-8397-599f701337d0")
+	)
+	(wire
+		(pts
 			(xy 88.9 119.38) (xy 88.9 127)
 		)
 		(stroke
@@ -4776,16 +4796,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 69.85) (xy 172.72 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f36a9d7f-ad84-4595-9095-db4ade65d705")
-	)
-	(wire
-		(pts
 			(xy 156.21 114.3) (xy 160.02 114.3)
 		)
 		(stroke
@@ -4803,16 +4813,6 @@
 			(type default)
 		)
 		(uuid "f482de9e-e483-49cb-80ae-abccb72e70c6")
-	)
-	(wire
-		(pts
-			(xy 168.91 72.39) (xy 170.18 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f97570cd-7bc7-48a7-995c-2491d52ff1b7")
 	)
 	(wire
 		(pts
@@ -9044,7 +9044,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS14")
-		(at 156.21 69.85 90)
+		(at 156.21 69.85 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9054,7 +9054,7 @@
 		(dnp no)
 		(uuid "ffdbdfd5-122e-4a2b-8464-5b312e9bb479")
 		(property "Reference" "D3"
-			(at 151.638 68.58 90)
+			(at 160.782 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9065,7 +9065,7 @@
 			)
 		)
 		(property "Value" "SS14"
-			(at 149.352 71.374 90)
+			(at 163.068 68.326 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9076,7 +9076,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 160.655 69.85 0)
+			(at 151.765 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
