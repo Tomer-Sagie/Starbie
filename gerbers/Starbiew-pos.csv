@@ -1,29 +1,24 @@
-### Footprint positions - created on 2026-10-11T20:37:34 ###
-### Printed by KiCad version 10.0.4
-## Unit = inches, Angle = deg.
-## Side : All
-# Ref     Val                 Package                                                PosX       PosY       Rot  Side
-BZ1       Passive_Piezo_12mm  Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm                5.7480    -3.9469  -90.0000  top
-C1        100nF               C_0805_2012Metric                                    7.1358    -2.8661  -90.0000  top
-C2        100nF               C_0805_2012Metric                                    4.1457    -2.8839    0.0000  top
-C3        22uF                C_0805_2012Metric                                    4.8209    -4.7244    0.0000  top
-C4        100nF               C_0805_2012Metric                                    4.8209    -4.5866    0.0000  top
-D1        WS2812B             LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm                   7.3307    -2.6831    0.0000  top
-D2        WS2812B             LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm                   4.0630    -2.7106    0.0000  top
-D3        SS14                D_SOD-123                                            4.8524    -4.9055  -90.0000  top
-J1        Conn_01x04_Pin      Display_128x64_096_I2C                               5.6004    -3.3960  180.0000  top
-J2        Conn_01x08_Pin      PinHeader_1x08_P2.54mm_Vertical                      6.2106    -3.5008    0.0000  top
-J3        MOTOR               PinHeader_1x02_P2.54mm_Vertical                      4.6752    -4.8409    0.0000  top
-Q1        AO3400A             SOT-23                                               5.0369    -4.8543    0.0000  top
-R1        10k                 R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal     5.9102    -2.0571  180.0000  top
-R2        10k                 R_0805_2012Metric                                    6.4975    -4.9114    0.0000  top
-R3        330Ω                R_0805_2012Metric                                    7.2279    -3.0118  180.0000  top
-R4        GL5528              R_LDR_5.1x4.3mm_P3.4mm_Vertical                      6.6850    -4.9016    0.0000  top
-R5        220                 R_0805_2012Metric                                    5.0359    -4.4980    0.0000  top
-R6        100k                R_0805_2012Metric                                    5.0359    -4.6358    0.0000  top
-R7        100                 R_0805_2012Metric                                    5.7776    -3.6353  -90.0000  top
-SW1       SW_Push             SW_Cherry_MX_1.00u_PCB                               4.7752    -2.7232    0.0000  top
-SW2       SW_Push             SW_Cherry_MX_1.00u_PCB                               5.1378    -3.6516    0.0000  top
-U1        XIAO-ESP32-C3-SMD   XIAO-ESP32-C3-SMD                                    6.2742    -3.3634    0.0000  top
-U2        DHT11               Aosong_DHT11_5.5x12.0_P2.54mm                        5.8201    -2.2343  -90.0000  top
-## End
+Ref,Val,Package,PosX,PosY,Rot,Side
+"BZ1","Passive Piezo 12mm","Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm",146.000000,-100.250000,-90.000000,top
+"C1","100nF","C_0805_2012Metric",181.250000,-72.800000,-90.000000,top
+"C2","100nF","C_0805_2012Metric",105.300000,-73.250000,0.000000,top
+"C3","22uF","C_0805_2012Metric",122.450000,-120.000000,0.000000,top
+"C4","100nF","C_0805_2012Metric",122.450000,-116.500000,0.000000,top
+"D1","WS2812B","LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",186.200000,-68.150000,0.000000,top
+"D2","WS2812B","LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",103.200000,-68.850000,0.000000,top
+"D3","SS14","D_SOD-123",123.250000,-124.600000,-90.000000,top
+"J1","Conn_01x04_Pin","Display_128x64_096_I2C",142.250000,-86.258000,180.000000,top
+"J2","Conn_01x08_Pin","PinHeader_1x08_P2.54mm_Vertical",157.750000,-88.920000,0.000000,top
+"J3","MOTOR","PinHeader_1x02_P2.54mm_Vertical",118.750000,-122.960000,0.000000,top
+"Q1","AO3400A","SOT-23",127.937500,-123.300000,0.000000,top
+"R1","10k","R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",150.120000,-52.250000,180.000000,top
+"R2","10k","R_0805_2012Metric",165.037500,-124.750000,0.000000,top
+"R3","330Ω","R_0805_2012Metric",183.587500,-76.500000,180.000000,top
+"R4","GL5528","R_LDR_5.1x4.3mm_P3.4mm_Vertical",169.800000,-124.500000,0.000000,top
+"R5","220","R_0805_2012Metric",127.912500,-114.250000,0.000000,top
+"R6","100k","R_0805_2012Metric",127.912500,-117.750000,0.000000,top
+"R7","100","R_0805_2012Metric",146.750000,-92.337500,-90.000000,top
+"SW1","SW_Push","SW_Cherry_MX_1.00u_PCB",121.290000,-69.170000,0.000000,top
+"SW2","SW_Push","SW_Cherry_MX_1.00u_PCB",130.500000,-92.750000,0.000000,top
+"U1","XIAO-ESP32-C3-SMD","XIAO-ESP32-C3-SMD",159.365000,-85.430250,0.000000,top
+"U2","DHT11","Aosong_DHT11_5.5x12.0_P2.54mm",147.830000,-56.750000,-90.000000,top
