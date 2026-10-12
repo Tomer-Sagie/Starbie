@@ -12,7 +12,6 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| Starbie PCB (star shape) | 104.00 x 93.50 mm, 2 layers, 1.6 mm, HASL, green. Just over the 100 mm tier so not the very cheapest price. 5-board minimum, so about $3.00 a batch plus shipping. Price is an estimate. | 1 | $0.00 | $0.00 | JLCPCB |
 | Seeed XIAO ESP32-C3 | The brain. Order the castellated SMD version you routed for. Price from the Seeed product page. | 1 | $0.00 | $0.00 | Seeed Studio |
 | DHT11 temp + humidity | Digital one-wire sensor on D0. Price from the Tayda listing, which is often out of stock; Adafruit stocks the same part for more money. | 1 | $0.00 | $0.00 | Tayda Electronics |
 | MPU6050 6-axis accelerometer (GY-521 module) | REQUIRED and was missing from this list before. Not a PCB part - it plugs into J2 pins 1-4 (3V3, GND, SCL, SDA), which exists exactly for it. Without it the tilt menu never moves. | 1 | $0.00 | $0.00 | ElectroPeak |
