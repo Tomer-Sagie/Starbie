@@ -12,13 +12,6 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| 1x02 pin header (motor) | Vibration motor connector. Price is an estimate. | 1 | $0.00 | $0.00 | Generic |
-| Cherry MX keyswitch | PCB-mount MX, 1.00u. Any MX-compatible switch fits (Cherry, Gateron, Kailh). Price is an estimate; I could not confirm a current listing. | 2 | $0.00 | $0.00 | AliExpress |
-| AO3400A N-channel MOSFET | LCSC C20917. Low-side switch for the motor. Must be logic-level - it is specified at 2.5 V gate drive so it works from 3.3 V. Minimum order 5. | 1 | $0.00 | $0.00 | LCSC |
-| SS14 Schottky diode | Flyback across the motor, cathode to +3.3V. Part number taken from the build guide rather than re-checked. A 1N4148W works too (LCSC C81598, $0.0125, 50-piece minimum). | 1 | $0.00 | $0.00 | LCSC |
-| 22uF capacitor 0805 | LCSC C129302 (X5R, 16 V). Motor bulk capacitor. Minimum order 10. | 1 | $0.00 | $0.00 | LCSC |
-| 100nF capacitor 0805 | LCSC C1711 (Samsung, 50 V, X7R). Minimum order 20. | 3 | $0.00 | $0.00 | LCSC |
-| 10k resistor (through-hole) | Pull-up on the DHT11 data line. This is the part that holds GPIO2 HIGH at power-on, so do not omit it. Price is an estimate. | 1 | $0.00 | $0.00 | Generic |
 | 10k resistor 0805 | LCSC C17414. Top half of the light divider. Minimum order 100 - you will have spares. | 1 | $0.00 | $0.00 | LCSC |
 | 330 ohm resistor 0805 | Series resistor for the WS2812B data line. Any 0805 1% 0.1 W part. Price is an estimate based on the 0805 family. | 1 | $0.00 | $0.00 | LCSC |
 | GL5528 photoresistor (LDR) | LCSC C10081. Bottom half of the light divider. Check your LDR's leg pitch - if it is 2.54 mm use OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical instead. Minimum order 10. | 1 | $0.00 | $0.00 | LCSC |
