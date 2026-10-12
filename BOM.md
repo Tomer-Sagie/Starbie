@@ -12,13 +12,6 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| 10k resistor 0805 | LCSC C17414. Top half of the light divider. Minimum order 100 - you will have spares. | 1 | $0.00 | $0.00 | LCSC |
-| 330 ohm resistor 0805 | Series resistor for the WS2812B data line. Any 0805 1% 0.1 W part. Price is an estimate based on the 0805 family. | 1 | $0.00 | $0.00 | LCSC |
-| GL5528 photoresistor (LDR) | LCSC C10081. Bottom half of the light divider. Check your LDR's leg pitch - if it is 2.54 mm use OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical instead. Minimum order 10. | 1 | $0.00 | $0.00 | LCSC |
-| 220 ohm resistor 0805 | Motor gate series resistor. Price is an estimate based on the 0805 family. | 1 | $0.00 | $0.00 | LCSC |
-| 100k resistor 0805 | Motor gate pull-down - stops the motor twitching on boot. Price is an estimate based on the 0805 family. | 1 | $0.00 | $0.00 | LCSC |
-| 100 ohm resistor 0805 | Buzzer series resistor (sets the volume). Price is an estimate based on the 0805 family. | 1 | $0.00 | $0.00 | LCSC |
-| Piezo buzzer PS1240P02BT | TDK PS1240P02BT, LCSC C76871. It must be PASSIVE (externally driven) - an active buzzer can only make one fixed beep. Minimum order 1. | 1 | $0.00 | $0.00 | LCSC |
 | Vibration motor (coin type, 1027) | Not a PCB part - it plugs into J3 and is stuck to the board. 10 x 2.7 mm, 3 V, brushed ERM. Buy two, they are easy to kill. Price is an estimate. | 1 | $0.00 | $0.00 | AliExpress |
 | Keycaps (MX, 1u) | For SW1/SW2. Price is an estimate. | 2 | $0.00 | $0.00 | AliExpress |
 | **Parts subtotal** | — | — | — | **$0.00** | — |
