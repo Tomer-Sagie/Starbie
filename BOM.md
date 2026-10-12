@@ -12,13 +12,6 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| Seeed XIAO ESP32-C3 | The brain. Order the castellated SMD version you routed for. Price from the Seeed product page. | 1 | $0.00 | $0.00 | Seeed Studio |
-| DHT11 temp + humidity | Digital one-wire sensor on D0. Price from the Tayda listing, which is often out of stock; Adafruit stocks the same part for more money. | 1 | $0.00 | $0.00 | Tayda Electronics |
-| MPU6050 6-axis accelerometer (GY-521 module) | REQUIRED and was missing from this list before. Not a PCB part - it plugs into J2 pins 1-4 (3V3, GND, SCL, SDA), which exists exactly for it. Without it the tilt menu never moves. | 1 | $0.00 | $0.00 | ElectroPeak |
-| WS2812B addressable RGB | LCSC C114586. The eyes. Data is chained D1 -> D2, so solder them in that order. Driven through R3 on D6/GPIO21. Minimum order 5. | 2 | $0.00 | $0.00 | LCSC |
-| 1x04 pin header (OLED) | Solder the OLED module straight to the board or fit a socket first. Price is an estimate for the header alone. | 1 | $0.00 | $0.00 | Generic |
-| 0.96in 128x64 SSD1306 I2C OLED module | Sits on J1. Most are address 0x3C; some are 0x3D - change OLED_ADDRESS in the firmware if yours is. Adafruit's equivalent breakout is $17.50 (https://www.adafruit.com/product/326). Price is an estimat | 1 | $0.00 | $0.00 | Generic |
-| 1x08 pin header | Carries 3V3, GND, SCL, SDA on pins 1-4 for the MPU6050; pins 5-8 are spare. Price is an estimate. | 1 | $0.00 | $0.00 | Generic |
 | 1x02 pin header (motor) | Vibration motor connector. Price is an estimate. | 1 | $0.00 | $0.00 | Generic |
 | Cherry MX keyswitch | PCB-mount MX, 1.00u. Any MX-compatible switch fits (Cherry, Gateron, Kailh). Price is an estimate; I could not confirm a current listing. | 2 | $0.00 | $0.00 | AliExpress |
 | AO3400A N-channel MOSFET | LCSC C20917. Low-side switch for the motor. Must be logic-level - it is specified at 2.5 V gate drive so it works from 3.3 V. Minimum order 5. | 1 | $0.00 | $0.00 | LCSC |
